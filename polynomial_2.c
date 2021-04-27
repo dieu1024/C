@@ -1,7 +1,7 @@
 //
 //  방법 2 - 0이 아닌 계수의 차수만 저장
 //
-//  Created by 김지우 on 2021/03/26.
+//  Created by 김지우
 //
 
 #define _CRT_SECURE_NO_WARNINGS
