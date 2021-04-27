@@ -1,7 +1,7 @@
 //
 //  방법 1 - 모든 차수의 계수를 저장
 //
-//  Created by 김지우 on 2021/03/25.
+//  Created by 김지우
 //
 
 #define _CRT_SECURE_NO_WARNINGS
