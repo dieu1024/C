@@ -2,7 +2,7 @@
 //  main.c
 //  stack_queue_hw
 //
-//  Created by ±èÁö¿ì on 2021/04/08.
+//  Created by ê¹€ì§€ìš°
 //
 
 #include <stdio.h>
@@ -56,7 +56,7 @@ Element pop(Stack* pstack) {
 
 Element peek(Stack* pstack) {
     if (isEmpty(pstack)) {
-        printf("½ºÅÃÀÌ ºñ¾îÀÖÀ½\n");
+        printf("ìŠ¤íƒì´ ë¹„ì–´ìˆìŒ\n");
         exit(1);
     }
     else
@@ -78,7 +78,7 @@ int main() {
     while (1)
     { 
         
-        printf("°è»êÇÒ ¼ö½ÄÀ» ÀÔ·ÂÇÏ½Ã¿À\n");
+        printf("ê³„ì‚°í•  ìˆ˜ì‹ì„ ì…ë ¥í•˜ì‹œì˜¤\n");
         gets(s);
 
         a = postfix(s, str);
@@ -159,7 +159,7 @@ int postfix(char exp[], char str[]) {
                 for (k = 0; k < i; k++) {
                     printf(" ");
                 }
-                printf(" ^ ÀÌ À§Ä¡¿¡ ¿À·ù°¡ ÀÖ½À´Ï´Ù. \n");
+                printf(" ^ ì´ ìœ„ì¹˜ì— ì˜¤ë¥˜ê°€ ìˆìŠµë‹ˆë‹¤. \n");
                 return -1;
             }
             else {
@@ -179,7 +179,7 @@ int postfix(char exp[], char str[]) {
                     for (k = 0; k < len; k++) {
                         printf(" ");
                     }
-                    printf("^ ÀÌ À§Ä¡¿¡ ¿À·ù°¡ ÀÖ½À´Ï´Ù. \n");
+                    printf("^ ì´ ìœ„ì¹˜ì— ì˜¤ë¥˜ê°€ ìˆìŠµë‹ˆë‹¤. \n");
                     return -1;
                 }
                       
@@ -194,7 +194,7 @@ int postfix(char exp[], char str[]) {
                     break;
                 }
                 else {
-                    printf("^ ÀÌ À§Ä¡¿¡ ¿À·ù°¡ ÀÖ½À´Ï´Ù. \n");
+                    printf("^ ì´ ìœ„ì¹˜ì— ì˜¤ë¥˜ê°€ ìˆìŠµë‹ˆë‹¤. \n");
                     return -1;
                 }
             
