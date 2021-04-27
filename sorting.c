@@ -2,7 +2,7 @@
 //  main.c
 //  sorting
 //
-//  Created by 김지우 on 2021/04/19.
+//  Created by 김지우
 //
 
 #include <stdio.h>
